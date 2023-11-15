@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #center_maker {
+    width: 1024px;
+    margin: 0px auto;
+    text-align: left;
+  }
+  
+  #page_header {
+    margin-top: 10px;
+    border: 2px solid #2F4F4F;
+    background-color: #F8F8FF;
+  }
+  
+  .logo {
+    display: inline;
+    vertical-align: middle;
+    float: left;
+  }
+  
+  .title_text {
+    display: inline;
+    left: 250px;
+    font-size: 50px;
+    position: relative;
+  }
+  /*
+  *end of header part
+  *start of navigation part
+  */
+  
+  #top_nav {
+    margin: 0px;
+    border: 2px solid #2F4F4F;
+    background-color: #2F4F4F;
+  }
+  
+  #top_nav ul {
+    list-style-type: none;
+    margin: 10px;
+  }
+  
+  #top_nav ul li {
+    display: inline;
+  }
+  
+  #top_nav ul li a {
+    margin: 0px;
+    padding: 0px 20px 0px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #top_nav ul li a:hover {
+    margin: 0px;
+    padding: 0px 20px 0px 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+  }
+  /*
+  *end of navigation
+  *start of section part
+  */
+  
+  #section {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    /*top right bottom left (clockwise direction)*/
+    
+    border: 2px solid #2F4F4F;
+    padding: 10px;
+    width: auto;
+  }
+  
+  #section article {
+    margin: 0px 0px 5px 0px
+  }
+  /*
+  *end of section part
+  *starting page footer
+  */
+  
+  #page_footer {
+    clear: both;
+    margin: 0px auto;
+    padding: 10px 5px 10px 5px;
+    border: 2px solid black;
+    width: 1010px;
+    background-color: #2F4F4F;
+    font-family: white;
+  }

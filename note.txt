@@ -1,0 +1,8 @@
+jaise ejs file set up kiya 
+now talking about static files
+static file mtlb frontend , js , images style, setup krna 
+static file ko setup krne ke lia do this
+1 - create folder name public
+2 - create 3 folder inside it images , stylesheet , javascripts
+3 - configure the express static
+4 - understand the path
